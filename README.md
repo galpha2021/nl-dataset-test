@@ -13,8 +13,8 @@ The goal of this project is to **compare two different optimization solvers** â€
 1. **Data Input**: The system accepts either a CSV file path or a preloaded Pandas DataFrame from openML
 2. **Preprocessing**: Features and labels are cast to `float64` to ensure compatibility with solvers.
 3. **Solver Choice**: Choose between:
-   - `SelectFromNonlinearModel` ()
-   - `SelectFromQuadraticModel` (CQM solver)
+   - `SelectFromNonlinearModel` (NL)
+   - `SelectFromQuadraticModel` (CQM)
 4. **Feature Selection**: The selected solver reduces the feature set to `k` features using an optimization model with a redundancy penalty `alpha` âˆˆ [0, 1].
 5. **Evaluation**: A `RandomForestClassifier` is used with cross-validation to evaluate the accuracy of the selected feature set.
 6. **Logging Results**: Results are logged in a CSV file, capturing:
