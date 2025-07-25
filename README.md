@@ -4,11 +4,11 @@ This repository contains a Python implementation of a hybrid feature selection f
 
 ---
 
-## 🔍 Purpose
+##  Purpose
 
-The goal of this project is to **compare two different optimization solvers** — a nonlinear solver and a quadratic model solver — for selecting informative and non-redundant features. It evaluates how many features to retain (`k`) from a dataset by balancing classification performance and feature redundancy via an `alpha` penalty parameter.
+The goal of this project is to **compare two different optimization solvers** — D-Wave's NL and CQM solvers — for selecting informative and non-redundant features. It evaluates how many features to retain (`k`) from a dataset by balancing classification performance and feature redundancy via an `alpha` penalty parameter.
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Data Input**: The system accepts either a CSV file path or a preloaded Pandas DataFrame from openML
 2. **Preprocessing**: Features and labels are cast to `float64` to ensure compatibility with solvers.
@@ -25,7 +25,7 @@ The goal of this project is to **compare two different optimization solvers** �
 
 ---
 
-## 📊 What It Works On
+##  What It Works On
 
 The code can run on:
 - Any **CSV dataset** where the target column is specified
