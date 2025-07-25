@@ -1,4 +1,4 @@
-# Nonlinear model (NL) and Constrained Quadratic Model (CQM_ Feature Selection using D-Wave-Compatible Models
+# Nonlinear model (NL) and Constrained Quadratic Model (CQM) Feature Selection using D-Wave-Compatible Models
 
 This repository contains a Python implementation of a hybrid feature selection framework that leverages **NL** and **CQMs** to select an optimal subset of features from a dataset. It is designed for performance benchmarking to mesaure runtime and accurancy scores between both models and research in optimization-based feature selection methods.
 
